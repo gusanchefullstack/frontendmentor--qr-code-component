@@ -4,8 +4,8 @@
 
 article {
   background-color: var(--color-white);
-  max-width: 320px;
-  max-height: 497px;
+  width: 320px;
+  height: 497px;
   text-align: center;
   padding: 16px;
   border-radius: 20px;
@@ -29,4 +29,18 @@ p {
   font-weight: 400;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+@media screen and (max-width: 376px) {
+  article {
+    margin-top: initial;
+    margin-top: 157px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  article {
+    margin-top: initial;
+    margin-top: 231px;
+  }
 }
